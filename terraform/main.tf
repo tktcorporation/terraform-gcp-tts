@@ -1,6 +1,4 @@
-variable "gcp_project" {
-  default = "discord-tts-bot-individual"
-}
+variable "gcp_project" {}
 variable "billing_id" {}
 
 provider "google" {
